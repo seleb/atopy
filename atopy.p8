@@ -202,8 +202,8 @@ end
 
 function update_menu()
  if rnd() > 0.9 then
-  local x1 = rnd(128)
-  local y1 = rnd(128)
+  local x1 = rnd(100)+14
+  local y1 = rnd(100)+14
   local r1 = rnd(6)+2
   for x=-r1,r1 do
   for y=-r1,r1 do
