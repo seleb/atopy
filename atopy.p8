@@ -237,7 +237,7 @@ function update_main()
   if wavetimer == 0 then
    wavetimer = 100
    local a = rnd()
-   enemy(p.x+32*cos(a),p.y+32*sin(a),7+wave,p.x+32*cos(a),p.y+32*sin(a))
+   enemy(p.x+32*cos(a),p.y+32*sin(a),wave,p.x+32*cos(a),p.y+32*sin(a))
    wave += 1
   else
    if wavetimer == 100 then
